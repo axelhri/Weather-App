@@ -25,7 +25,7 @@ const loadConfig = async () => {
 };
 
 const weatherData = async (city) => {
-  const url = `http://api.weatherapi.com/v1/current.json?key=a740ef16321749488a095816251601&q=${city}&aqi=no`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=a740ef16321749488a095816251601&q=${city}&aqi=no`;
 
   try {
     const response = await fetch(url);
