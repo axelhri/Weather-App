@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  color: white;
+  min-block-size: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Outfit";
+  background: rgb(20, 20, 20);
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#card {
+  inline-size: 20rem;
+  background: rgb(82, 82, 255);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+
+.weather-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card img {
+  height: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+  max-inline-size: 100%;
+}
+
+.temperature {
+  font-size: 4em;
+}
+
+.country,
+.city {
+  font-size: 2.5em;
+  color: rgb(238, 238, 238);
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  inline-size: 90%;
+  margin-inline: auto;
+  margin-block-start: 2rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.box i {
+  font-size: 3rem;
+}
+
+.box-number {
+  font-size: 1.5em;
+}
+
+.box-text {
+  font-size: 0.9em;
+}
